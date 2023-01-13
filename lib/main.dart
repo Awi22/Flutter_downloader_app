@@ -57,6 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
             true, // show download progress in status bar (for Android)
         openFileFromNotification:
             true, // click on notification to open downloaded file (for Android)
+        saveInPublicStorage: true, // to save in Public Storage
       );
     }
   }
