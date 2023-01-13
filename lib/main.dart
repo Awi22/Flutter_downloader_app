@@ -106,7 +106,9 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const <Widget>[],
+          children: const <Widget>[
+            Text("Klik tombol untuk tes download"),
+          ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
